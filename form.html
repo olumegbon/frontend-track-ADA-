@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+input[type=text], select{
+width: 100%;
+padding:12px 20px;
+margin:8px 0;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=password], select{
+width: 100%;
+padding:12px 20px;
+margin:8px 0;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=submit]{
+width: 100%;
+padding:12px 20px;
+margin:8px 0;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+background-color: lime;
+}
+input[type=reset]{
+width: 100%;
+padding:12px 20px;
+margin:8px 0;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=tel]{
+width: 100%;
+padding:12px 20px;
+margin:8px 0;
+display: inline-block;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=checkbox]{
+width:15px;
+height: 15px;
+top: 0;
+left: 0;
+}
+
+input:hover{ background-color: lightgreen;}
+
+div{background-color: aqua;
+padding:20px;
+border-radius: 5px;}
+
+textarea{width:50%;
+height:100px;
+padding: 12px 20px;
+box-sizing:border-box;
+border-radius: 4px;
+}
+
+    </style>
+</head>
+<body>
+    <div><h1>FRONTEND ENGINEERING</h1>
+    <h4>fILL THE FORM BELOW!!!!</h4>
+    <form>
+<label for="fullname">FULL NAME</label>
+<input type="text"placeholder="type your name here............" >
+<br>
+<label for="state">STATE OF ORIGIN</label>
+<input type="text">
+<br>
+<label for="country">COUNTRY</label>
+<select id="country" name="country">
+<option value="nigeria">Nigeria</option>
+<option value="ghana">Ghana</option>
+<option value="togo">Togo</option>
+<option value="nigeria">Canada</option></select>
+<br>
+<label for="phone">PHONE NUMBER</label>
+<input type="tel">
+<br>
+<label for="password">PASSWORD</label>
+<input type="password" >
+<br>
+<p>TELL US ABOUT YOUR SELF(NOT MORE THAN 1000 WORDS) </p>
+<textarea>
+    type...................
+</textarea> 
+<br>
+<p>kindly pick your favourite color</p>
+<input type="radio" name="color"> blue<br>
+<input type="radio" name="color">yellow <br>
+<input type="radio" name="color"> white<br>
+<input type="radio" name="color">red <br>
+<p>
+<input type="checkbox">
+<label for="checkbox">Agree with terms and conditions</label></p>
+<br>
+<input type="submit">
+<br>
+<input type="reset">
+<br>
+
+    </form>
+    </div>
+</body>
+</html>
