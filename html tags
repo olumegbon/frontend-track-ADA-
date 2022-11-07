@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TAGS</title>
+</head>
+<body>
+    <h1>ada is a girl</h1>
+    <h2>this is my heading 2 tags</h2>
+    <p>this my paragraph</p>
+    <p>i love my <span>mother</span></p><!---span-->
+    <p><small>This is some smaller text.</small></p><!--small-->
+
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/python/">Python</a>
+      </nav>
+      <!----comment------>
+<br> <!-----line break-------->
+    <a href="https://www.pinterest.com/pin/599401031672401674/">
+        <img border="0" alt="covered girl"  width="100" height="100">
+        </a>
+        <a href="https://www.frontend.com" target="_blank">Visit W3Schools.com!</a> 
+        <p>This is normal text  <b>and this is bold text</b>.</p>
+        
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+            </blockquote>
+            
+           <!---------table-->
+              <table>
+                <tr>
+                  <th>name</th>
+                  <th>departmet</th>
+                </tr>
+                <tr>
+                  <td>ugo oluchi</td>
+                  <td>computer science</td>
+                </tr>
+              </table>  
+
+              <video width="320" height="240" controls>
+                
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>     
+              
+</body>
+</html>
